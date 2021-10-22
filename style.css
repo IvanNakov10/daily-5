@@ -1,5 +1,5 @@
 .container {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .header {
@@ -79,4 +79,180 @@
 
 .p {
     display: block;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .header {
+        color: hsl(281, 28%, 34%);
+        font-size: 2.5em;
+        line-height: 1.1em;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+
+    .secondary-header {
+        color: hsl(0, 0%, 50%);
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .reviews {
+        padding-top: 0.5em;
+    }
+
+    .review {
+        color: hsl(281, 28%, 34%);
+        background-color: hsl(309, 100%, 97%);
+        display: flex;
+        width: 100%;
+        margin-bottom: 1em;
+        height: 5em;
+        border-radius: 5px;
+        padding-top: 0.75em;
+        padding-left: 2em;
+    }
+
+    .r1 {
+        margin-left: 0em;
+    }
+
+    .r2 {
+        margin-left: 0em;
+    }
+
+    .raiting {
+        font-size: 1em;
+        margin-left: 2em;
+        font-weight: 700;
+        padding-top: .5em;
+    }
+
+    .star {
+        width: 20px;
+        height: 20px;
+        margin-top: 1em;
+    }
+
+    .p-review {
+        background-color: hsl(279, 75%, 17%);
+        border-radius: 10px;
+        margin-top: 2em;
+        height: 220px;
+    }
+
+    .name {
+        color: hsl(309, 100%, 100%);
+        font-size: 1em;
+        padding-top: 2em;
+        margin-left: 1em
+    }
+
+    .buyer {
+        color: hsl(289, 100%, 64%);
+        font-size: 1em;
+        margin-left: 1em
+    }
+
+
+
+    .text-r {
+        color: hsl(309, 100%, 100%);
+        margin-left: 1em;
+        padding-bottom: 2em;
+        width: 90%;
+    }
+
+    .p {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .header {
+        color: hsl(281, 28%, 34%);
+        font-size: 2.5em;
+        line-height: 1.1em;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+
+    .secondary-header {
+        color: hsl(0, 0%, 50%);
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .reviews {
+        padding-top: 0.5em;
+    }
+
+    .review {
+        color: hsl(281, 28%, 34%);
+        background-color: hsl(309, 100%, 97%);
+        display: flex;
+        width: 100%;
+        margin-bottom: 1em;
+        height: 5em;
+        border-radius: 5px;
+        padding-top: 0.75em;
+        padding-left: 2em;
+    }
+
+    .r1 {
+        margin-left: 0em;
+    }
+
+    .r2 {
+        margin-left: 0em;
+    }
+
+    .raiting {
+        font-size: 1em;
+        margin-left: 2em;
+        font-weight: 700;
+        padding-top: 1em;
+    }
+
+    .star {
+        width: 20px;
+        height: 20px;
+        margin-top: 1em;
+    }
+
+    .p-review {
+        background-color: hsl(279, 75%, 17%);
+        border-radius: 10px;
+        margin-top: 2em;
+        height: 260px;
+    }
+
+    .name {
+        color: hsl(309, 100%, 100%);
+        font-size: 1em;
+        padding-top: 2em;
+        margin-left: 1em
+    }
+
+    .buyer {
+        color: hsl(289, 100%, 64%);
+        font-size: 1em;
+        margin-left: 1em
+    }
+
+
+
+    .text-r {
+        color: hsl(309, 100%, 100%);
+        margin-left: 1em;
+        padding-bottom: 2em;
+        width: 90%;
+    }
+
+    .p {
+        display: block;
+    }
 }
