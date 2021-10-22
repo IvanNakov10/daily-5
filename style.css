@@ -50,26 +50,33 @@
 }
 
 .p-review {
-    background-color: hsl(279, 76%, 21%);
+    background-color: hsl(279, 75%, 17%);
     border-radius: 10px;
-    height: 250px;
-}
 
-.p-img {
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    margin-left: 2em;
-    margin-top: 2em;
+    height: 200px;
 }
 
 .name {
     color: hsl(309, 100%, 100%);
     font-size: 1em;
-    margin-top: 2em;
-    margin-left: 1.25em;
+    padding-top: 2em;
+    margin-left: 2em
 }
 
 .buyer {
     color: hsl(289, 100%, 64%);
+    font-size: 1em;
+    margin-left: 2em
+}
+
+
+
+.text-r {
+    color: hsl(309, 100%, 100%);
+    margin-left: 2em;
+    padding-bottom: 2em;
+}
+
+.p {
+    display: block;
 }
